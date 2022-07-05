@@ -1,0 +1,24 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "formula_1"
+authors = [{name = "Raquel Ordonez Herrera", email = "raquel.ordonez.herrera@outlook.es"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+dependencies = [
+    "pandas",
+    "sklearn",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==22.3.0",
+    "black[jupyter]==22.3.0",
+    "pytest",
+    "hypothesis",
+]
+
+[project.urls]
+Home = "https://www.linkedin.com/in/raquel-ordonez-herrera/"
