@@ -24,3 +24,7 @@ To install a development version of the library:
 ```
 $ pip install -e .[dev]
 ```
+
+References:
+
+https://towardsdatascience.com/formula-1-race-predictor-5d4bfae887da
